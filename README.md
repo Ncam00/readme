@@ -1,4 +1,4 @@
-# 👋 Hey, I’m Nixon (Ncam00)
+# 👋 Hey, I’m Nixon
 
 I’ve recently transitioned from **real estate** into **tech**, bringing my passion for teamwork, problem-solving, and people-first collaboration along the way.
 
