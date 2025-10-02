@@ -1,9 +1,35 @@
-Kia ora, I'm Nixon!
+# 👋 Hey, I’m Nixon (Ncam00)
 
-I’m Nixon, and I’ve recently transitioned into tech after working in real estate. I completed Dev Academy’s 17-week full-stack bootcamp, where I gained hands-on experience building projects in collaborative, fast-paced environments.
+I’ve recently transitioned from **real estate** into **tech**, bringing my passion for teamwork, problem-solving, and people-first collaboration along the way.
 
-I thrive when working with others — whether as an Agile Facilitator keeping projects on track, or as a Vibes Watcher making sure the team stays positive and motivated. With a background in real estate and a love for sports, I bring strong communication, empathy, and resilience into every project I’m part of.
+- 🔄 **Transitioned from real estate to tech** to challenge myself and future-proof my skills  
+- 💡 Thrived in Dev Academy’s 17-week bootcamp, where I embraced roles like **Vibes Watcher** and **Agile Facilitator**  
+- 💻 Built both **individual & group projects** using modern stacks and agile workflows  
+- 🤝 Strong human skills: empathy, communication, conflict management, and keeping team energy high  
 
-🌱 Currently learning: React, APIs, and full-stack application design
-💻 Tech stack: JavaScript | TypeScript | React | Node.js | SQL | Git
-⚡ Fun fact: I love sports and bring that same energy for collaboration into coding projects
+---
+
+## 🌱 Currently Learning & Exploring
+
+- Frameworks / Tools: React, Node.js, APIs, TypeScript  
+- Practices: Agile methodologies, testing, CI/CD  
+- Project interests: collaborative web apps, user-focused interfaces, full-stack development  
+
+---
+
+## 🛠 Tech Stack & Tools
+
+JavaScript | TypeScript | React | Node.js | Express | SQL | Git | REST APIs | Testing  
+
+
+---
+
+## ⚡ Fun Fact & Personal Touch
+
+I love sports — whether in a team or solo — and the energy, communication, and discipline from that world help me thrive in tech too.  
+
+---
+
+## 📬 Let’s Connect
+
+[LinkedIn]([your-link](https://www.linkedin.com/in/nixon-cam/)) | [Portfolio]([your-link](https://github.com/Ncam00)) | nixon.cam997@gmail.com  
