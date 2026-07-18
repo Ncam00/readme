@@ -1,0 +1,189 @@
+<title>Nixon Cameron — Profile README Preview</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel2:#0d0d0d;
+    --border:#30363d; --text:#e6edf3; --muted:#9198a1; --faint:#6e7681;
+    --badge:#1a1a1a; --white:#ffffff;
+    --mono:"SFMono-Regular",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#010409;color:var(--text);font-family:var(--sans);line-height:1.6;
+       display:flex;justify-content:center;padding:24px 16px}
+  .note{position:fixed;top:0;left:0;right:0;background:#1f2937;color:#cbd5e1;font-size:12px;
+        text-align:center;padding:6px;border-bottom:1px solid var(--border);z-index:10;font-family:var(--mono)}
+  .readme{width:100%;max-width:900px;background:var(--bg);border:1px solid var(--border);
+          border-radius:12px;overflow:hidden;margin-top:34px}
+  .body{padding:32px 40px 8px}
+  h2{font-size:22px;border-bottom:1px solid var(--border);padding-bottom:8px;margin:34px 0 16px;
+     display:flex;align-items:center;gap:10px;font-weight:600}
+  .em{width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;
+      background:#21262d;border-radius:6px;font-size:14px}
+  hr{border:0;border-top:1px solid var(--border);margin:28px 0}
+  p{color:var(--text)} .muted{color:var(--muted)}
+  a{color:#ffffff;text-decoration:none;border-bottom:1px dotted var(--faint)}
+
+  /* header banner */
+  .banner{height:170px;background:linear-gradient(100deg,#000 0%,#1a1a1a 50%,#333 100%);
+    position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    overflow:hidden}
+  .banner:after{content:"";position:absolute;inset:0;
+    background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);
+    background-size:22px 22px}
+  .banner h1{margin:0;font-size:44px;font-weight:700;letter-spacing:1px;z-index:1}
+  .banner .sub{color:#aaa;font-size:15px;z-index:1;margin-top:4px}
+  .typing{font-family:var(--mono);font-weight:600;font-size:20px;text-align:center;margin:22px 0 0;
+    border-right:2px solid #fff;padding-right:6px;width:fit-content;margin-inline:auto;
+    animation:blink 1s step-end infinite}
+  @keyframes blink{50%{border-color:transparent}}
+  @media(prefers-reduced-motion){.typing{animation:none}}
+
+  /* code block */
+  pre{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px 18px;
+      overflow-x:auto;font-family:var(--mono);font-size:13.5px;line-height:1.7}
+  .k{color:#ff7b72}.s{color:#a5d6ff}.p{color:#79c0ff}.c{color:#8b949e}
+
+  /* badges */
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{display:inline-flex;align-items:center;gap:7px;background:var(--badge);color:#fff;
+    font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.4px;
+    padding:8px 13px;border-radius:5px;text-transform:uppercase;border:1px solid #000}
+  .dot{width:9px;height:9px;border-radius:2px;display:inline-block}
+
+  /* projects table */
+  .tablewrap{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+  th,td{border:1px solid var(--border);padding:9px 12px;text-align:left;vertical-align:middle}
+  th{background:var(--panel);font-weight:600}
+  tr:nth-child(even) td{background:rgba(255,255,255,.015)}
+  .tag{display:inline-block;background:#333;color:#fff;font-family:var(--mono);font-size:10.5px;
+    padding:2px 7px;border-radius:4px;margin-right:4px}
+
+  /* stat cards */
+  .stats{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+  .card{flex:1;min-width:230px;background:var(--panel2);border:1px solid var(--border);
+    border-radius:8px;padding:18px 20px}
+  .card h3{margin:0 0 12px;font-size:14px;color:#fff;font-weight:600}
+  .row{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);
+    font-family:var(--mono);padding:3px 0}
+  .row b{color:#fff;font-weight:600}
+  .bar{height:6px;background:#21262d;border-radius:3px;margin:6px 0 2px;overflow:hidden}
+  .bar span{display:block;height:100%;background:#fff}
+  .streak{text-align:center}
+  .streak .big{font-size:34px;font-weight:700;color:#fff;font-family:var(--mono)}
+
+  /* hobbies */
+  ul.hob{list-style:none;padding:0;display:grid;gap:10px}
+  ul.hob li{background:var(--panel);border:1px solid var(--border);border-radius:8px;
+    padding:12px 16px;font-size:14px}
+  ul.hob b{color:#fff}
+
+  .center{text-align:center}
+  .viewpill{display:inline-flex;font-family:var(--mono);font-size:11px;border-radius:5px;
+    overflow:hidden;margin-top:8px}
+  .viewpill .l{background:#333;color:#fff;padding:6px 10px;text-transform:uppercase}
+  .viewpill .r{background:#111;color:#fff;padding:6px 10px}
+  .footer{height:70px;background:linear-gradient(100deg,#333,#1a1a1a,#000)}
+</style>
+
+<div class="note">📄 Visual mockup — on GitHub the header, badges &amp; stat cards render as live images. Layout &amp; theme are accurate.</div>
+
+<div class="readme">
+  <div class="banner">
+    <h1>Nixon Cameron</h1>
+    <div class="sub">Real Estate → Tech · Full-Stack Developer</div>
+  </div>
+
+  <div class="body">
+    <div class="typing">Full-Stack Developer</div>
+
+    <h2><span class="em">👋</span> About Me</h2>
+<pre><span class="k">const</span> <span class="p">nixon</span> = {
+  <span class="p">location</span>:   <span class="s">"Aotearoa, New Zealand 🇳🇿"</span>,
+  <span class="p">role</span>:       <span class="s">"Full-Stack Developer"</span>,
+  <span class="p">background</span>: <span class="s">"Real estate → Tech"</span>,
+  <span class="p">training</span>:   <span class="s">"Dev Academy — 17-week immersive bootcamp"</span>,
+  <span class="p">focus</span>:      [<span class="s">"Collaborative web apps"</span>, <span class="s">"User-focused UIs"</span>, <span class="s">"Full-stack builds"</span>],
+  <span class="p">superpower</span>: <span class="s">"Empathy, communication &amp; keeping team energy high"</span>,
+};</pre>
+    <p>I recently made the leap from <b>real estate</b> into <b>tech</b>, bringing my passion for teamwork,
+    problem-solving, and people-first collaboration along the way. At Dev Academy I thrived in agile roles
+    like <b>Vibes Watcher</b> and <b>Agile Facilitator</b>, and I've shipped both <b>solo and group projects</b>.</p>
+
+    <h2><span class="em">🛠️</span> Tech Stack &amp; Tools</h2>
+    <div class="badges">
+      <span class="badge"><span class="dot" style="background:#F7DF1E"></span>JavaScript</span>
+      <span class="badge"><span class="dot" style="background:#3178C6"></span>TypeScript</span>
+      <span class="badge"><span class="dot" style="background:#61DAFB"></span>React</span>
+      <span class="badge"><span class="dot" style="background:#339933"></span>Node.js</span>
+      <span class="badge"><span class="dot" style="background:#fff"></span>Express</span>
+      <span class="badge"><span class="dot" style="background:#3776AB"></span>Python</span>
+    </div>
+    <div class="badges">
+      <span class="badge"><span class="dot" style="background:#fff"></span>SQL</span>
+      <span class="badge"><span class="dot" style="background:#F05032"></span>Git</span>
+      <span class="badge"><span class="dot" style="background:#61DAFB"></span>React Native</span>
+      <span class="badge"><span class="dot" style="background:#fff"></span>Expo</span>
+      <span class="badge"><span class="dot" style="background:#646CFF"></span>Vite</span>
+      <span class="badge"><span class="dot" style="background:#E34F26"></span>HTML5</span>
+    </div>
+
+    <h2><span class="em">📂</span> Projects I've Built</h2>
+    <div class="tablewrap">
+    <table>
+      <tr><th>Project</th><th>What it is</th><th>Stack</th></tr>
+      <tr><td>🍷 <a href="#">WineisWine</a></td><td>Wine-themed web app</td><td><span class="tag">TypeScript</span></td></tr>
+      <tr><td>📈 <a href="#">edge-bet</a></td><td>Sports betting analytics — XGBoost predictions &amp; value-bet detection</td><td><span class="tag">Python</span><span class="tag">React Native</span></td></tr>
+      <tr><td>🤖 <a href="#">BinanceBot</a></td><td>Automated crypto trading bot</td><td><span class="tag">Python</span></td></tr>
+      <tr><td>💪 <a href="#">RepForge</a></td><td>Fitness tracking app</td><td><span class="tag">TypeScript</span></td></tr>
+      <tr><td>✅ <a href="#">NeverForget</a></td><td>Daily to-do app with push notifications</td><td><span class="tag">Expo</span></td></tr>
+      <tr><td>🗂️ <a href="#">myworkflo</a></td><td>Personal workflow tool</td><td><span class="tag">HTML</span></td></tr>
+    </table>
+    </div>
+
+    <h2><span class="em">📊</span> GitHub Stats</h2>
+    <div class="stats">
+      <div class="card">
+        <h3>Nixon's GitHub Stats</h3>
+        <div class="row"><span>Total Stars Earned</span><b>—</b></div>
+        <div class="row"><span>Total Commits (2026)</span><b>◍◍◍</b></div>
+        <div class="row"><span>Total PRs</span><b>◍◍</b></div>
+        <div class="row"><span>Contributed to</span><b>◍</b></div>
+      </div>
+      <div class="card">
+        <h3>Most Used Languages</h3>
+        <div class="row"><span>TypeScript</span><b>42%</b></div><div class="bar"><span style="width:42%"></span></div>
+        <div class="row"><span>JavaScript</span><b>31%</b></div><div class="bar"><span style="width:31%"></span></div>
+        <div class="row"><span>Python</span><b>18%</b></div><div class="bar"><span style="width:18%"></span></div>
+        <div class="row"><span>HTML</span><b>9%</b></div><div class="bar"><span style="width:9%"></span></div>
+      </div>
+    </div>
+    <div class="card streak" style="margin-top:14px">
+      <div class="row" style="justify-content:space-around">
+        <div><div class="big">7</div><div>Current Streak</div></div>
+        <div><div class="big">21</div><div>Longest Streak</div></div>
+        <div><div class="big">140</div><div>Total Contributions</div></div>
+      </div>
+    </div>
+
+    <h2><span class="em">🏀</span> Beyond the Code</h2>
+    <ul class="hob">
+      <li>🏀 <b>Sports</b> — team or solo, the energy, communication and discipline carry into how I work</li>
+      <li>🤝 <b>People</b> — mentoring, facilitating, and keeping the vibes high</li>
+      <li>🧠 <b>Learning</b> — always exploring a new framework, tool or side project</li>
+      <li>♟️ <b>Strategy</b> — I love a good problem to pick apart, on-screen or off</li>
+    </ul>
+
+    <h2><span class="em">📬</span> Let's Connect</h2>
+    <div class="badges">
+      <span class="badge"><span class="dot" style="background:#0A66C2"></span>LinkedIn</span>
+      <span class="badge"><span class="dot" style="background:#fff"></span>GitHub</span>
+      <span class="badge"><span class="dot" style="background:#EA4335"></span>Email</span>
+      <span class="badge"><span class="dot" style="background:#fff"></span>Portfolio / Website</span>
+    </div>
+    <div class="center">
+      <span class="viewpill"><span class="l">Profile Views</span><span class="r">128</span></span>
+    </div>
+  </div>
+  <div class="footer"></div>
+</div>
