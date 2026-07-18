@@ -1,7 +1,7 @@
 <!-- ====== HEADER BANNER ====== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:333333&height=200&section=header&text=Nixon%20Cameron&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Real%20Estate%20%E2%86%92%20Tech%20%7C%20Full-Stack%20Developer&descAlignY=60&descSize=18&descColor=aaaaaa" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:333333&height=200&section=header&text=Nixon%20Cam&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Real%20Estate%20%E2%86%92%20Tech%20%7C%20Full-Stack%20Developer&descAlignY=60&descSize=18&descColor=aaaaaa" alt="header"/>
 
 <!-- Typing effect -->
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;React+%7C+Node.js+%7C+TypeScript;People-first+problem+solver;Always+learning%2C+always+building" alt="Typing SVG" />
